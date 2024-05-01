@@ -1,0 +1,49 @@
+#container{
+    border: 2px dashed black;
+    float: left;
+    margin: 100px 350px;
+}
+#container > .pattern1{
+    display: flex;
+}
+#container > .pattern2{
+    display: flex;
+}
+#container > .pattern1 > div{
+    width: 70px;
+    height: 70px;
+}
+#container > .pattern2 > div{
+    width: 70px;
+    height: 70px;
+} 
+.pattern1 > div:nth-child(odd){
+    background-color: white;
+}
+.pattern1 > div:nth-child(even){
+    background-color: rgb(120, 167, 91);
+}
+.pattern2 > div:nth-child(odd){
+    background-color:rgb(120, 167, 91);
+    
+}
+.pattern2 > div:nth-child(even){
+    background-color: white;
+}.items{
+    padding: 5px;
+    box-sizing: border-box;
+}
+.items img{
+    width: 55px;
+    height: 55px;
+}
+#show1{
+    position: absolute;
+    bottom: 450px;
+    left: 100px;
+}
+#show2{
+    position: absolute;
+    bottom: 450px;
+    right: 100px;
+}
