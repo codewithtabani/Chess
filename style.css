@@ -1,5 +1,5 @@
 #container{
-    border: 2px dashed black;
+    border: 2px solid black;
     float: left;
     margin: 100px 350px;
 }
